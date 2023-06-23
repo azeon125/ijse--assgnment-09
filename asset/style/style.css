@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body>main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+main>section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+main>section>section{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    border: rgba(0, 0, 0, 0.5) solid 1px;
+}
+main>section>section>div{
+    flex-grow: 1;
+
+}
+main>aside{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+main>aside>button{
+    cursor: pointer;
+    font-weight: bold;
+}
